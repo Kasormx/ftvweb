@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/80729/helpers.css'>
+  <link rel="shortcut icon" href="Img/logof.ico" type="image/x-icon"/>
+<link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/80729/atc-fonts.css'><link rel="stylesheet" href="css/style.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'><link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!doctype html>
+<!-- saved from url=(0014)about:internet -->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+  <meta name="viewport" content="width=device-width; initial-scale = 1.0; maximum-scale=1.0; user-scalable=no" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/home.css"/>
+  <link href='https://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
+  <link href="https://allfont.net/allfont.css?fonts=montserrat-light" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800|Lato:400,100,300,700,900|Raleway:400,100,200,300,500,700,800' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="js/jquery-2.2.3.min.js"></script>
+</head>
+
+
+<body>
+  <!--Preloader-->
+  <div class="loading">
+    <div class="svg-wrapper">
+      <svg height="150" width="150" xmlns="http://www.w3.org/2000/svg">
+      <rect class="animate" height="150" width="150" />
+    </svg>
+      <div class="text">
+        <span class="logo">FTV</span>
+        <span class="motto">The Best Vibe.</span>
+      </div>
+    </div>
+  </div>
+
+  <!--SVG animation-->
+  <script>
+    var p = document.querySelector('.animate'),
+      offset = 600;
+    var offsetMe = function() {
+      if (offset < 0) {
+        offset = 600;
+      }
+      p.style.strokeDashoffset = offset;
+      offset = offset - 5;
+      requestAnimationFrame(offsetMe);
+    }
+    offsetMe();
+  </script>
+
+  <!--Desktop Navigation-->
+  <span class="desktop">
+    <header>
+      <span id="logo">FeelTheVibe</span>
+      <nav>
+        <a href="#Artist">Artist</a>
+        <a href="about.html">About</a>
+        <a href="eventos.html">Eventos</a>
+        <a href="school.html">School</a>
+        <a href="#">Shop</a>
+      </nav>
+    </header>
+  </span>
+
+  <!--Mobile Navigation-->
+  <span class="mobile">
+</a>
+    <header>
+      <span id="logo">FeelTheVibe</span>
+      <div class="button_container">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+      </div>
+    </header>
+
+    <div class="overlay">
+      <nav>
+        <ul>
+          <li><a href="#Artist">Artist</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="eventos.html">Eventos</a></li>
+          <li><a href="school.html">School</a></li>
+          <li><a href="#">Shop</a></li>
+        </ul>
+      </nav>
+    </div>
+  </span>
+  
+  <!--Homepage-->
+  <div class="wrapper">
+    <div class="landing"></div>
+  </div>
+
+  <!--Intro text scroll-->
+  <div class="content-1">
+    <span class="one">We Create Talents.</span>
+    <span class="two">Good Vibes.</span>
+    <span class="three">We are FTV.</span>
+  </div>
+
+  <!--Mouse scroller-->
+  <span class="mouseScroll"></span>
+
+  <!--About section-->
+  <div class="about">
+<div class="hideme">
+      <h1>Realese</h1>
+    </div>
+ <!--Cards Musica-->
+               <div class="row active-with-click">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <article class="material-card Red">
+                        <h2>
+                            <span>Deep Word</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Kasor
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="Img/art/DeepWord.jpg">
+                            </div>
+                            <div class="mc-description">
+                                Cancion creada por "Kasor" lanzada el dia 30 de enero del 2021 
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                Listen
+                            </h4>
+                            <a class="fa fa-fw fa-facebook"></a>
+                            <a class="fa fa-fw fa-twitter"></a>
+                            <a class="fa fa-fw fa-linkedin"></a>
+                            <a class="fa fa-fw fa-google-plus"></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <article class="material-card Pink">
+                        <h2>
+                            <span>Belive In Your Dreams</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Chris Shino
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="Img/art/belivec.jpeg">
+                            </div>
+                            <div class="mc-description">
+                                "Belive In Your Dreams" cancion creada por el Productor DjCris Shino del genero Tropical House, Lanzada el dia 5 de febrero del 2021 bajo el sello discografico "FeelTheVibe".
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                Lister
+                            </h4>
+                            <a class="fa fa-fw fa-facebook"></a>
+                            <a class="fa fa-fw fa-twitter"></a>
+                            <a class="fa fa-fw fa-linkedin"></a>
+                            <a class="fa fa-fw fa-google-plus"></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <article class="material-card Purple">
+                        <h2>
+                            <span>Waiting For You</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Jaystick
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="Img/art/Waiting.jpg">
+                            </div>
+                            <div class="mc-description">
+                                Cancion elaborada por el Productor Jaystick del genero EDM, lanzada el dia 10 de febrero del 2021 bajo el sello discografico "FeelTheVibe".
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                Lister
+                            </h4>
+                            <a class="fa fa-fw fa-facebook"></a>
+                            <a class="fa fa-fw fa-twitter"></a>
+                            <a class="fa fa-fw fa-linkedin"></a>
+                            <a class="fa fa-fw fa-google-plus"></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <article class="material-card Deep-Purple">
+                        <h2>
+                            <span>Obseno Deseo</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Canales
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="Img/art/obcsceno.jpg">
+                            </div>
+                            <div class="mc-description">
+                                texto
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                Lister
+                            </h4>
+                            <a class="fa fa-fw fa-facebook"></a>
+                            <a class="fa fa-fw fa-twitter"></a>
+                            <a class="fa fa-fw fa-linkedin"></a>
+                            <a class="fa fa-fw fa-google-plus"></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <article class="material-card Indigo">
+                        <h2>
+                            <span>La Chica mas Guapa</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Canales
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="Img/art/lachica.jpg">
+                            </div>
+                            <div class="mc-description">
+                                Texto
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                Lister
+                            </h4>
+                            <a class="fa fa-fw fa-facebook"></a>
+                            <a class="fa fa-fw fa-twitter"></a>
+                            <a class="fa fa-fw fa-linkedin"></a>
+                            <a class="fa fa-fw fa-google-plus"></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <article class="material-card Blue">
+                        <h2>
+                            <span>Cancion</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Productor
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="Img/art/DeepWord.jpg">
+                            </div>
+                            <div class="mc-description">
+                                Texto
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                lister
+                            </h4>
+                            <a class="fa fa-fw fa-facebook"></a>
+                            <a class="fa fa-fw fa-twitter"></a>
+                            <a class="fa fa-fw fa-linkedin"></a>
+                            <a class="fa fa-fw fa-google-plus"></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <article class="material-card Light-Blue">
+                        <h2>
+                            <span>Cancion</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Productor
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="Img/art/DeepWord.jpg">
+                            </div>
+                            <div class="mc-description">
+                                texto
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                Lister
+                            </h4>
+                            <a class="fa fa-fw fa-facebook"></a>
+                            <a class="fa fa-fw fa-twitter"></a>
+                            <a class="fa fa-fw fa-linkedin"></a>
+                            <a class="fa fa-fw fa-google-plus"></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <article class="material-card Cyan">
+                        <h2>
+                            <span>Cancion</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Productor
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="Img/art/DeepWord.jpg">
+                            </div>
+                            <div class="mc-description">
+                                Texto
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                Social
+                            </h4>
+                            <a class="fa fa-fw fa-facebook"></a>
+                            <a class="fa fa-fw fa-twitter"></a>
+                            <a class="fa fa-fw fa-linkedin"></a>
+                            <a class="fa fa-fw fa-google-plus"></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <article class="material-card Teal">
+                        <h2>
+                            <span>Cancion</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Productor  
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="Img/art/DeepWord.jpg">
+                            </div>
+                            <div class="mc-description">
+                                Texto
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                Lister
+                            </h4>
+                            <a class="fa fa-fw fa-facebook"></a>
+                            <a class="fa fa-fw fa-twitter"></a>
+                            <a class="fa fa-fw fa-linkedin"></a>
+                            <a class="fa fa-fw fa-google-plus"></a>
+                        </div>
+                    </article>
+                </div>
+                <!--
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <article class="material-card Green">
+                        <h2>
+                            <span>Joaquin Phoenix</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Her
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="https://material-cards.s3-eu-west-1.amazonaws.com/thumb-joaquin-phoenix.jpg">
+                            </div>
+                            <div class="mc-description">
+                                is an American actor, producer, music video director, musician and activist. For his work as an artist, Phoenix has received a Grammy Award, a Golden Globe Award and three Academy ...
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                Social
+                            </h4>
+                            <a class="fa fa-fw fa-facebook"></a>
+                            <a class="fa fa-fw fa-twitter"></a>
+                            <a class="fa fa-fw fa-linkedin"></a>
+                            <a class="fa fa-fw fa-google-plus"></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <article class="material-card Light-Green">
+                        <h2>
+                            <span>Tom Hanks</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Forrest Gump
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="https://material-cards.s3-eu-west-1.amazonaws.com/thumb-tom-hanks.jpg">
+                            </div>
+                            <div class="mc-description">
+                                He is known for his roles in Big (1988), Philadelphia (1993), Forrest Gump (1994), Apollo 13 (1995), Saving Private Ryan, You've Got Mail (both 1998), The Green Mile (1999), Cast Away (2000) ...
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                Social
+                            </h4>
+                            <a class="fa fa-fw fa-facebook"></a>
+                            <a class="fa fa-fw fa-twitter"></a>
+                            <a class="fa fa-fw fa-linkedin"></a>
+                            <a class="fa fa-fw fa-google-plus"></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <article class="material-card Lime">
+                        <h2>
+                            <span>Philip Seymour Hoffman</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                25th Hour
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="https://material-cards.s3-eu-west-1.amazonaws.com/thumb-philip-seymour-hoffman.jpg">
+                            </div>
+                            <div class="mc-description">
+                                Best known for his distinctive supporting and character roles – typically lowlifes, bullies, and misfits – Hoffman was a regular presence in films from the early 1990s until his death at age 46.
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                Social
+                            </h4>
+                            <a class="fa fa-fw fa-facebook"></a>
+                            <a class="fa fa-fw fa-twitter"></a>
+                            <a class="fa fa-fw fa-linkedin"></a>
+                            <a class="fa fa-fw fa-google-plus"></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <article class="material-card Yellow">
+                        <h2>
+                            <span>Paul Newman</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                The Color of Money
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="https://material-cards.s3-eu-west-1.amazonaws.com/thumb-paul-newman.jpg">
+                            </div>
+                            <div class="mc-description">
+                                He won numerous awards, including an Academy Award for his performance in the 1986 film The Color of Money,[3] a BAFTA Award, a Screen Actors Guild Award, a Cannes Film Festival Award, an Emmy Award ...
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                Social
+                            </h4>
+                            <a class="fa fa-fw fa-facebook"></a>
+                            <a class="fa fa-fw fa-twitter"></a>
+                            <a class="fa fa-fw fa-linkedin"></a>
+                            <a class="fa fa-fw fa-google-plus"></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <article class="material-card Amber">
+                        <h2>
+                            <span>Marlon Brando</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                The Godfather
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="https://material-cards.s3-eu-west-1.amazonaws.com/thumb-marlon-brando.jpg">
+                            </div>
+                            <div class="mc-description">
+                                He is hailed for bringing a gripping realism to film acting, and is frequently cited as the greatest and most influential actor of all time.[2] A cultural icon, Brando is most famous for his Academy ...
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                Social
+                            </h4>
+                            <a class="fa fa-fw fa-facebook"></a>
+                            <a class="fa fa-fw fa-twitter"></a>
+                            <a class="fa fa-fw fa-linkedin"></a>
+                            <a class="fa fa-fw fa-google-plus"></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <article class="material-card Orange">
+                        <h2>
+                            <span>Kevin Spacey</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                American Beauty
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="https://material-cards.s3-eu-west-1.amazonaws.com/thumb-kevin-spacey.jpg">
+                            </div>
+                            <div class="mc-description">
+                                He began his career as a stage actor during the 1980s, before being cast in supporting roles in film and television. He gained critical acclaim in the early 1990s, culminating in his first Academy Award ...
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                Social
+                            </h4>
+                            <a class="fa fa-fw fa-facebook"></a>
+                            <a class="fa fa-fw fa-twitter"></a>
+                            <a class="fa fa-fw fa-linkedin"></a>
+                            <a class="fa fa-fw fa-google-plus"></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <article class="material-card Deep-Orange">
+                        <h2>
+                            <span>Robert De Niro</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Taxy Driver
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="https://material-cards.s3-eu-west-1.amazonaws.com/thumb-robert-de-niro.jpg">
+                            </div>
+                            <div class="mc-description">
+                                His first major film roles were in the sports drama Bang the Drum Slowly (1973) and Martin Scorsese's crime film Mean Streets (1973). In 1974, after being turned down for the role of Sonny Corleone in the crime ...
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                Social
+                            </h4>
+                            <a class="fa fa-fw fa-facebook"></a>
+                            <a class="fa fa-fw fa-twitter"></a>
+                            <a class="fa fa-fw fa-linkedin"></a>
+                            <a class="fa fa-fw fa-google-plus"></a>
+                        </div>
+                    </article>
+                </div>
+                
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <article class="material-card Brown">
+                        <h2>
+                            <span>Deep Word</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Kasor
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="https://material-cards.s3-eu-west-1.amazonaws.com/thumb-steve-mcqueen.jpg">
+                            </div>
+                            <div class="mc-description">
+                                Called "The King of Cool", his "anti-hero" persona, developed at the height of the Vietnam War-era counterculture, made him a top box-office draw of the 1960s and 1970s. McQueen received an Academy Award nomination for his ...
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                Social
+                            </h4>
+                            <a class="fa fa-fw fa-facebook"></a>
+                            <a class="fa fa-fw fa-twitter"></a>
+                            <a class="fa fa-fw fa-linkedin"></a>
+                            <a class="fa fa-fw fa-google-plus"></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <article class="material-card Grey">
+                        <h2>
+                            <span>Rugter Hauer</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Blade Runner
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="https://material-cards.s3-eu-west-1.amazonaws.com/thumb-rugter-hauer.jpg">
+                            </div>
+                            <div class="mc-description">
+                                Blonde, blue-eyed, tall and handsome Dutch actor Rutger Hauer has an international reputation for playing everything from romantic leads to action heroes to sinister villains. Hauer was born in Breukelen, a town in the province ...
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                Social
+                            </h4>
+                            <a class="fa fa-fw fa-facebook"></a>
+                            <a class="fa fa-fw fa-twitter"></a>
+                            <a class="fa fa-fw fa-linkedin"></a>
+                            <a class="fa fa-fw fa-google-plus"></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <article class="material-card Blue-Grey">
+                        <h2>
+                            <span>Morgan Freeman</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Glory
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="https://material-cards.s3-eu-west-1.amazonaws.com/thumb-morgan-freeman.jpg">
+                            </div>
+                            <div class="mc-description">
+                                Freeman has received Academy Award nominations for his performances in Street Smart, Driving Miss Daisy, The Shawshank Redemption and Invictus ...
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                Social
+                            </h4>
+                            <a class="fa fa-fw fa-facebook"></a>
+                            <a class="fa fa-fw fa-twitter"></a>
+                            <a class="fa fa-fw fa-linkedin"></a>
+                            <a class="fa fa-fw fa-google-plus"></a>
+                        </div>
+                        -->
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+        
+    
+
+    <!--Contact box-->
+
+          <span></span>
+        </div>
+        <div class="actives-state">
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Sponsors section-->
+  <div class="sponsors">
+    <div class="hideme">
+      <h2>Artist´s FeelTheVibe</h2>
+    </div>
+  </div>
+
+             <!--Cards Artistas-->
+        
+             <a name="Artist"></a>
+             <div class="about">
+                <div class="hideme">
+                      <h1>Artist</h1>
+                    </div>
+              <div class="contenedor">
+                  <a href="canales.html"> 
+              <img src="Img/arti/canales1.jpg" >
+            <div class="caption">
+              <h1>Canales</h1>
+              <p>Monterrey, México</p>
+            </div>
+          </a> 
+      </div>
+             <div class="contenedor">  
+              <a href="kasor.html">
+              <img src="Img/arti/kasor.jpg" alt="Kasor">
+             <div class="caption2">
+              <h1>Kasor</h1>
+              <p>Monterrey, México</p>
+            </div>
+          </a>
+      </div>
+  
+      <div class="contenedor"> 
+        <a href="flind.html">
+     <img src="Img/arti/flind.png" alt="Flind">
+    <div class="caption14">
+     <h1>Flind</h1>
+     <p>Monterrey, México</p>
+    </div>
+    </a>
+    </div>
+  
+  <div class="contenedor"> 
+      <a href="straktash.html">
+   <img src="Img/arti/Straktash.jpeg" alt="Straktash">
+  <div class="caption3">
+   <h1>Straktash</h1>
+   <p>Monterrey, México</p>
+  </div>
+  </a>
+  </div>
+  
+  
+  <div class="contenedor">  
+   <img src="Img/arti/gonkid.jpeg" alt="Gonkid">
+  <div class="caption4">
+   <h1>Gonkid</h1>
+   <p>Monterrey, México</p>
+  </div>
+  </div>
+  
+  
+  <div class="contenedor">  
+   <img src="Img/arti/shino.jpg" alt="Shino">
+  <div class="caption5">
+   <h1>Chris Shino</h1>
+   <p>Tamaulipas, México</p>
+  </div>
+  </div>
+  
+  <div class="contenedor">  
+   <img src="Img/arti/makber.jpeg" alt="Makber">
+  <div class="caption6">
+   <h1>Makber</h1>
+   <p>Monterrey, México</p>
+  </div>
+  </div>
+  
+  <div class="contenedor">  
+   <img src="Img/arti/jaystick1.jpg" alt="Jaystick">
+  <div class="caption7">
+   <h1>Jaystick</h1>
+   <p>Monterrey, México</p>
+  </div>
+  </div>
+  
+     <div class="contenedor">  
+      <img src="Img/arti/atom.jpeg" alt="Atom">
+     <div class="caption10">
+      <h1>Atom</h1>
+      <p>Monterrey, México</p>
+     </div>
+  </div>
+  
+     <div class="contenedor">  
+      <img src="Img/arti/teviek.jpeg" alt="Teviek">
+     <div class="caption11">
+      <h1>Teviek</h1>
+      <p>Monterrey, México</p>
+     </div>
+  </div>
+  
+     <div class="contenedor">  
+      <img src="Img/arti/reptailen.jpeg" alt="Reptailen">
+     <div class="caption12">
+      <h1>Reptailen</h1>
+      <p>De otro Mundo</p>
+     </div>
+  </div>
+
+  <!--Social section-->
+  <div class="social">
+    <span class="hideme">
+      <a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>
+    </span>
+  </div>
+
+  <script src="js/home.js"></script>
+
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="js/index_script.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="js/index.js"></script>
+
+</body>
+</html>

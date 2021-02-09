@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>School | Coming Soon</title>
+        <link rel="stylesheet" href="css/school.css" />
+        <script src="https://cdn.rawgit.com/bradley/Blotter/master/build/blotter.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/rollingDistortMaterial.min.js"></script>
+    </head>
+    <body>
+        
+        <div class="header">
+            <div id="text"></div>
+            <script>
+                let Size = 0.001;
+    
+                function increaseSize() {
+                    var elem = document.getElementById("text");
+                    var text = new Blotter.Text("Coming soon", {
+                        family: "Monument Extended",
+                        weight: 30,
+                        size: 90,
+                        fill: "red"
+                    });
+    
+                    var material = new Blotter.RollingDistortMaterial();
+    
+                    material.uniforms.uSineDistortAmplitude.value = 0.04;
+    
+                    var blotter = new Blotter(material, {
+                        texts: text
+                    });
+    
+                    var scope = blotter.forText(text);
+    
+                    scope.appendTo(elem);
+    
+                    Size += 0.001;
+                }
+    
+                increaseSize();
+            </script>
+        </div>
+
+        <div class="container">
+            <div class="text-wrapper">
+                <div class="text-1 text">*2021*</div>
+                <div class="text-2 text">*2021*</div>
+                <div class="text-3 text">*2021*</div>
+                <div class="text-4 text">*2021*</div>
+                <div class="text-5 text">*2021*</div>
+                <div class="text-6 text">*2021*</div>
+                <div class="text-7 text">*2021*</div>
+                <div class="text-8 text">*2021*</div>
+                <div class="text-9 text">*2021*</div>
+                <div class="text-10 text">*2021*</div>
+                <div class="text-11 text">*2021*</div>
+            </div>
+        </div>
+
+
+    </body>
+</html>
